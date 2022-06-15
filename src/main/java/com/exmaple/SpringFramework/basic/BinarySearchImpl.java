@@ -1,6 +1,5 @@
-package com.exmaple.SpringFramework;
+package com.exmaple.SpringFramework.basic;
 
-import com.exmaple.SpringFramework.SortAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
