@@ -16,12 +16,16 @@ public class SpringFrameworkBasicApplication {
 				SpringApplication.run(SpringFrameworkScopeApplication.class, args);
 		PersonDAO personDAO = applicationContext.getBean(PersonDAO.class);
 		PersonDAO personDAO1 = applicationContext.getBean(PersonDAO.class);
+		PersonDAO personDAO3 = applicationContext.getBean(PersonDAO.class);
 
 		LOGGER.info("{}", personDAO);
 		LOGGER.info("{}", personDAO.getJdbcConnection());
 
 		LOGGER.info("{}", personDAO1);
 		LOGGER.info("{}", personDAO1.getJdbcConnection());
+
+		LOGGER.info("{}", personDAO3);
+		LOGGER.info("{}", personDAO3.getJdbcConnection());
 
 	}
 }
