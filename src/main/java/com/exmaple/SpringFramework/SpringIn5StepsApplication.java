@@ -7,15 +7,7 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class SpringIn5StepsApplication {
 
-	// What are the beans?
-	// What are the dependencies of a bean?
-	// Where to search for beans? => No need
-
 	public static void main(String[] args) {
-
-		// BinarySearchImpl binarySearch =
-		// new BinarySearchImpl(new QuickSortAlgorithm());
-		// Application Context
 		ApplicationContext applicationContext = 
 				SpringApplication.run(SpringIn5StepsApplication.class, args);
 		com.exmaple.SpringFramework.BinarySearchImpl binarySearch =
